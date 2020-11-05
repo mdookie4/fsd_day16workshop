@@ -1,0 +1,14 @@
+<div class="list-group">
+    <table class="table mt-3">
+        <tr>
+            <td><h4>Sakila Movie Database</h4></td>
+        </tr>
+        {{#each films}}
+        <tr>
+            <td>                
+                    <a href="/film/{{this.film_id}}">{{this.title}}</a>
+            </td>
+        </tr>
+        {{/each}}
+    </table>
+</div>

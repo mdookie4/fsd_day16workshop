@@ -1,0 +1,24 @@
+{
+  "name": "fsd_day16workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://mdookie4@github.com/mdookie4/fsd_day16workshop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdookie4/fsd_day16workshop/issues"
+  },
+  "homepage": "https://github.com/mdookie4/fsd_day16workshop#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "mysql2": "^2.2.5"
+  }
+}
